@@ -10,7 +10,7 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-with open(r'C:\Users\batta\Desktop\chatbot\text.txt',"r",encoding="utf8") as file:
+with open(r'text.txt',"r",encoding="utf8") as file:
     data = file.read().replace("\n"," ")
     #print(data)
 
